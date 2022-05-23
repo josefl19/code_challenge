@@ -1,0 +1,32 @@
+{
+  "name": "code_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josefl19/code_challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josefl19/code_challenge/issues"
+  },
+  "homepage": "https://github.com/josefl19/code_challenge#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "eslint": "^8.16.0"
+  }
+}
